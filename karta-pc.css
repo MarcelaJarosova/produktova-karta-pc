@@ -1,0 +1,142 @@
+:root {
+  --product-red: #ee1212;
+  --product-red2: #ffbebe;
+  --product-green: #348a0d;
+  --product-green2: rgb(202, 243, 184);
+  --product-gray: #808080;
+  --product-yellow: #fff200;
+  --background-gray: #ecebeb;
+}
+
+body {
+  background-color: var(--background-gray);
+  font-family: sans-serif;
+}
+
+.karta-produkt {
+  width: 450px;
+  background-color: white;
+  position: relative;
+  margin: 0;
+  height: 730px; /* výška karty */
+}
+
+img {
+  width: 400px;
+  margin: auto;
+  display: block;
+}
+
+.bestseller {
+  font-weight: bold;
+  font-size: 15px;
+  background-color: var(--product-yellow);
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 16px;
+  position: absolute;
+  top: 20px;
+}
+
+.produkt-roku {
+  font-weight: bold;
+  font-size: 15px;
+  background-color: var(--product-red);
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 16px;
+  position: absolute;
+  top: 70px;
+}
+
+.sleva {
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  font-weight: bold;
+  background-color: var(--product-red);
+  color: white;
+  border-radius: 50%;
+  display: block;
+  right: 10px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.container-cena {
+  background-color: var(--product-red2);
+  height: 80px;
+  width: 420px;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.cena {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.usetrite {
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-bottom: px;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  border: solid 1px black;
+  border-radius: 5px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  padding: 5px;
+}
+
+.container-posta {
+  width: 430px;
+  height: 50px;
+  background-color: var(--product-green2);
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.posta{
+    font-weight: bold;
+    color: var(--product-green);
+    line-height: 50px;
+    padding-left: 20px;
+  }
+
+  .info{
+    font-weight: bold;
+    color: var(--product-green);
+    text-decoration: underline;
+    position: absolute;
+    right: 20px;
+    line-height: 50px;
+  }
